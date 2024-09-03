@@ -1,2 +1,8 @@
 @charset "UTF-8";
 
+main h1 {
+  text-align: center;
+}
+main p {
+  text-align: center;
+}
