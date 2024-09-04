@@ -1,8 +1,47 @@
 @charset "UTF-8";
 
-main h1 {
+/* * {
+  padding: 0px;
+  margin: 0px;
+}
+
+:root {
+  --cor01: #C4F5B0;
+  --cor02: #96F078;
+  --cor03: #70F043;
+  --cor04: #09c021;
+}
+
+body {
+  background-color: var(--cor01);
+}
+
+header {
+  background-image: linear-gradient(to bottom, var(--cor02), var(--cor04));
+  padding: 20px;
+}
+header h1 {
   text-align: center;
 }
-main p {
+
+header p {
   text-align: center;
 }
+
+nav {
+  background-color: var(--cor04);
+  text-align: center;
+  padding: 10px;
+}
+
+nav > a {
+  text-decoration: none;
+  color: var(--cor01);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+nav > a:hover {
+  background-color: var(--cor02);
+  color: var(--cor04)
+} */
