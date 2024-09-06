@@ -11,13 +11,9 @@
 }
 
 header {
-  padding: 20px;
 }
 header h1 {
-  align-items: center;
-  /* width: 600px; */
   padding: 5px;
-  background-color: rgb(30, 139, 3);
   font-family: "Bebas Neue", Times, Sans-serif;
   font-size: 3.5em;
   text-align: center;
@@ -25,37 +21,20 @@ header h1 {
 }
 
 header p {
+  font-size: 2em;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 body {
-  background-image: url('imagens/rio-preto-floresta.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background: rgba(50, 228, 59, 0.5) url('imagens/rio-preto-floresta.jpg') center center no-repeat fixed;
+  background-size: cover;
 }
 
 main {
-  width: 1000px;
-  height: 897px;
   background-color: rgb(219, 213, 213);
+  max-width: 700px;
   margin: auto;
   border-radius: 10px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.400);
   text-align: center;
 }
-
-/* nav main {
-  padding: 10px;
-}
-nav > a {
-  text-decoration: none;
-  padding: 5px;
-  color: rgb(30, 139, 3);
-}
-
-nav > a:hover {
-  color: white;
-  background-color: rgb(30, 139, 3);
-  border-radius: 5px;
-} */
