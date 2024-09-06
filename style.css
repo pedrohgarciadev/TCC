@@ -27,13 +27,13 @@ header p {
 }
 
 body {
-  background: rgba(50, 228, 59, 0.5) url('imagens/rio-preto-floresta.jpg') center center no-repeat fixed;
+  background: rgba(50, 228, 59, 0.5) url('imagens/pexels-yaroslav-shuraev-1834399.jpg') center center no-repeat fixed;
   background-size: cover;
 }
 
 main {
   background-color: rgb(219, 213, 213);
-  max-width: 700px;
+  max-width: 500px;
   margin: auto;
   border-radius: 10px;
   text-align: center;
