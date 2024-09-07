@@ -34,8 +34,7 @@ body {
 }
 
 main {
-   background-color: rgb(238, 234, 234);
-  height: 100vh;
+  background-color: rgb(238, 234, 234);
   min-width: 300px;
   max-width: 900px;
   padding: 5px;
