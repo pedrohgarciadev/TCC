@@ -36,17 +36,22 @@ header p {
 body {
   background: rgba(144, 245, 149, 0.5) url('imagens/pexels-yaroslav-shuraev-1834399.jpg') center center no-repeat fixed;
   background-size: cover;
+  height: 100vh;
 }
 
-main {
+#main {
+  min-height: calc(100vh - 40px);
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: auto; 
   background-color: rgb(238, 234, 234);
   width: 44vw;
-  padding: 5px;
   margin: auto;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+  margin-bottom: 15px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.418);
   border-radius: 10px;
   text-align: justify;
-  margin-bottom: 20px;
 }
 
 main h1 {
@@ -60,15 +65,77 @@ main h2 {
 }
 
 main p {
+  text-indent: 10px;
+  margin-bottom: 8px;
   text-align: justify;
 }
 
-footer {
+nav {
+  background-color: #0a7424;
+  text-align: center;
+  height: 200px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav div {
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  padding: px;
+  display: inline;
+}
+
+div#desmatamento {
+  background-image: url('imagens/CO2.jpg');
+  background-size: cover;
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+}
+
+div#desperdicio {
+  background-image: url('imagens/CO2.jpg');
+  background-size: cover;
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+}
+
+div#co2 {
+  background-image: url('imagens/CO2.jpg');
+  background-size: cover;
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+}
+
+div#poluicao {
+  background-image: url('imagens/CO2.jpg');
+  background-size: cover;
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: aquamarine; 
+  text-decoration: underline;
+}
+
+#rodape {
+  position: sticky;
+  bottom: 0;
+  width: 99.39%;
+  height: 15px;
   padding: 5px;
   color: white;
   background-color: #1c8b38;
   text-align: center;
-  position: sticky;
 }
 
 footer a {
