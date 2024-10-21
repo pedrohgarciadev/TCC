@@ -18,6 +18,7 @@ abbr {
 header {
   margin: 20px;
 }
+
 header h1 {
   color: #1c8b38;
   padding: 5px;
@@ -46,7 +47,7 @@ body {
   padding-right: 15px;
   overflow: auto; 
   background-color: rgb(238, 234, 234);
-  width: 44vw;
+  width: 50vw;
   margin: auto;
   margin-bottom: 15px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.418);
@@ -73,7 +74,7 @@ main p {
 nav {
   background-color: #0a7424;
   text-align: center;
-  height: 200px;
+  height: 120px;
 }
 
 nav a {
@@ -130,7 +131,7 @@ nav a:hover {
 #rodape {
   position: sticky;
   bottom: 0;
-  width: 99.39%;
+  width: 99.25%;
   height: 15px;
   padding: 5px;
   color: white;
