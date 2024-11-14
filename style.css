@@ -16,10 +16,12 @@ abbr {
 }
 
 header {
-  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.560);
+  margin: 3px;
 }
 
 header h1 {
+  letter-spacing: 0.5rem;
   color: #1c8b38;
   padding: 5px;
   font-family: "Bebas Neue", Times, Sans-serif;
@@ -35,7 +37,7 @@ header p {
 }
 
 body {
-  background: rgba(144, 245, 149, 0.5) url('imagens/pexels-yaroslav-shuraev-1834399.jpg') center center no-repeat fixed;
+  background: rgba(144, 245, 149, 0.5) url('imagens/fundo-floresta.jpg') center center no-repeat fixed;
   background-size: cover;
   height: 100vh;
 }
@@ -46,7 +48,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   overflow: auto; 
-  background-color: rgb(238, 234, 234);
+  background-color: rgba(238, 234, 234, 0.560);
   width: 50vw;
   margin: auto;
   margin-bottom: 15px;
@@ -72,7 +74,6 @@ main p {
 }
 
 nav {
-  background-color: #0a7424;
   text-align: center;
   height: 120px;
 }
@@ -92,7 +93,7 @@ nav div {
 }
 
 div#desmatamento {
-  background-image: url('imagens/CO2.jpg');
+  background-image: url('imagens/desmatamento.jpg');
   background-size: cover;
   height: 100px;
   width: 150px;
@@ -100,7 +101,7 @@ div#desmatamento {
 }
 
 div#desperdicio {
-  background-image: url('imagens/CO2.jpg');
+  background-image: url('imagens/torneira.jpg');
   background-size: cover;
   height: 100px;
   width: 150px;
@@ -108,14 +109,6 @@ div#desperdicio {
 }
 
 div#co2 {
-  background-image: url('imagens/CO2.jpg');
-  background-size: cover;
-  height: 100px;
-  width: 150px;
-  display: inline-block;
-}
-
-div#poluicao {
   background-image: url('imagens/CO2.jpg');
   background-size: cover;
   height: 100px;
