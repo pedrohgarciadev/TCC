@@ -42,12 +42,11 @@ body {
   height: 100vh;
 }
 
-#main {
-  min-height: calc(100vh - 40px);
+main {
+  height: 120vh;
   padding-bottom: 12px;
   padding-left: 15px;
   padding-right: 15px;
-  overflow: auto; 
   background-color: rgba(238, 234, 234, 0.560);
   width: 57vw;
   margin: auto;
@@ -114,6 +113,7 @@ div#desperdicio {
 }
 
 div#co2 {
+  margin-top: 4px;
   background-image: url('imagens/CO2.jpg');
   background-size: cover;
   height: 200px;
@@ -126,8 +126,16 @@ nav a:hover {
   text-decoration: underline;
 }
 
-#rodape {
-  position: sticky;
+div#sobrenos {
+  background-color: lightgray;
+  width: 99.25%;
+  padding: 5px;
+}
+
+div#pedro {
+}
+
+footer {
   bottom: 0;
   width: 99.25%;
   height: 15px;
