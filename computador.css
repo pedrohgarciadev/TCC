@@ -1,21 +1,20 @@
 @charset "UTF-8";
 
-@font-face {
-  font-family: 'Bebas Neue';
-  src: url('fontes/bebas-neueotf.otf') format(opentype),
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Funnel+Display:wght@300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lilita+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
   padding: 0px;
   margin: 0px;
 }
 
-abbr {
-  text-decoration: none;
-  font-weight: bold;
+html {
+  width: 100vw;
 }
 
 header {
+  width: 100vw;
   background-color: rgba(255, 255, 255, 0.560);
   margin-bottom: 3px;
 }
@@ -24,8 +23,8 @@ header h1 {
   letter-spacing: 0.5rem;
   color: #1c8b38;
   padding: 5px;
-  font-family: "Bebas Neue", Times, Sans-serif;
-  font-size: 3.5em;
+  font-size: 4em;
+  font-family: "Bebas neue", Arial, Helvetica, sans-serif;
   text-align: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.400);
 }
@@ -40,36 +39,43 @@ body {
   background: rgba(144, 245, 149, 0.5) url('imagens/fundo-floresta.jpg') center center no-repeat fixed;
   background-size: cover;
   height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 main {
-  height: 120vh;
-  padding-bottom: 12px;
+  background-color: rgba(238, 234, 234, 0.560);
   padding-left: 15px;
   padding-right: 15px;
-  background-color: rgba(238, 234, 234, 0.560);
-  width: 57vw;
+  width: 60vw;
   margin: auto;
   margin-bottom: 15px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.418);
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: justify;
 }
 
 main h1 {
   text-align: center;
-  padding: 20px;
+  font-family: "Bebas neue", Arial, Helvetica, sans-serif;
+  padding: 20px
+}
+
+abbr {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 main h2 {
   text-align: left;
   margin: 10px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
-
 main p {
   text-indent: 10px;
   margin-bottom: 8px;
   text-align: justify;
+  font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
 }
 
 p#tema {
@@ -79,46 +85,30 @@ p#tema {
 nav {
   margin-top: 40px;
   text-align: center;
-  height: 120px;
 }
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: rgb(2, 88, 6);
   font-weight: bold;
 }
 
-nav div {
-  background-size: cover;
-  height: 150px;
-  width: 150px;
-  padding: px;
+img#desmatamento {
+  height: 200px;
+  width: 300px;
   display: inline;
 }
 
-div#desmatamento {
-  background-image: url('imagens/desmatamento.jpg');
-  background-size: cover;
+img#desperdicio {
   height: 200px;
   width: 300px;
-  display: inline-block;
+  display: inline;
 }
 
-div#desperdicio {
-  background-image: url('imagens/torneira.jpg');
-  background-size: cover;
+img#co2 {
   height: 200px;
   width: 300px;
-  display: inline-block;
-}
-
-div#co2 {
-  margin-top: 4px;
-  background-image: url('imagens/CO2.jpg');
-  background-size: cover;
-  height: 200px;
-  width: 300px;
-  display: inline-block;
+  display: inline;
 }
 
 nav a:hover {
@@ -128,18 +118,26 @@ nav a:hover {
 
 div#sobrenos {
   background-color: lightgray;
-  width: 99.25%;
-  padding: 5px;
+  text-align: center;
+  width: 100vw;
+}
+
+div img {
+  width: 173px;
+  height: 307px;
+}
+
+div#renato {
+  display: inline-block;
 }
 
 div#pedro {
+  display: inline-block;
 }
 
 footer {
-  bottom: 0;
-  width: 99.25%;
-  height: 15px;
-  padding: 5px;
+  width: 100vw;
+  height: 25px;
   color: white;
   background-color: #1c8b38;
   text-align: center;
