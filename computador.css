@@ -47,7 +47,7 @@ main {
   background-color: rgba(238, 234, 234, 0.560);
   padding-left: 15px;
   padding-right: 15px;
-  width: 60vw;
+  width: 69vw;
   margin: auto;
   margin-bottom: 15px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.418);
@@ -59,11 +59,6 @@ main h1 {
   text-align: center;
   font-family: "Bebas neue", Arial, Helvetica, sans-serif;
   padding: 20px
-}
-
-abbr {
-  text-decoration: none;
-  font-weight: bold;
 }
 
 main h2 {
@@ -78,6 +73,11 @@ main p {
   font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
 }
 
+abbr {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 p#tema {
   margin-top: 40px;
 }
@@ -85,35 +85,61 @@ p#tema {
 nav {
   margin-top: 40px;
   text-align: center;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 nav a {
   text-decoration: none;
   color: rgb(2, 88, 6);
-  font-weight: bold;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: rgb(2, 182, 11);
+  text-decoration: underline;
+}
+
+nav img {
+  transition: 0.7s ease;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+nav img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.7s ease;
+}
+
+div#desmatamento {
+  display: inline-block;
+}
+div#desperdicio {
+  display: inline-block;
+}
+
+div#co2 {
+  display: inline-block;
 }
 
 img#desmatamento {
   height: 200px;
   width: 300px;
-  display: inline;
+  display: inline-block;
 }
 
 img#desperdicio {
   height: 200px;
   width: 300px;
-  display: inline;
+  display: inline-block;
 }
 
 img#co2 {
   height: 200px;
   width: 300px;
-  display: inline;
-}
-
-nav a:hover {
-  color: aquamarine; 
-  text-decoration: underline;
+  display: inline-block;
 }
 
 div#sobrenos {
