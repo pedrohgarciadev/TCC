@@ -1,6 +1,185 @@
 @charset "UTF-8";
 
-@font-face {
-  font-family: 'Bebas Neue';
-  src: url('fontes/bebas-neueotf.otf') format(opentype),
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Funnel+Display:wght@300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lilita+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+* { 
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  width: 100vw;
+}
+
+header {
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.560);
+  margin-bottom: 3px;
+}
+
+header h1 {
+  letter-spacing: 0.5rem;
+  color: #1c8b38;
+  padding: 5px;
+  font-size: 4em;
+  font-family: "Bebas neue", Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.400);
+}
+
+header p {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px;
+}
+
+body {
+  background: rgba(144, 245, 149, 0.5) url('../../imagens/fundo-floresta.jpg') center center no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+main {
+  background-color: rgba(238, 234, 234, 0.560);
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 69vw;
+  margin: auto;
+  margin-bottom: 15px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.418);
+  border-radius: 20px;
+  text-align: justify;
+}
+
+main h1 {
+  text-align: center;
+  font-family: "Bebas neue", Arial, Helvetica, sans-serif;
+  padding: 20px
+}
+
+main h2 {
+  text-align: left;
+  margin: 10px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+main p {
+  text-indent: 10px;
+  margin-bottom: 8px;
+  text-align: justify;
+  font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+}
+
+abbr {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p#tema {
+  margin-top: 40px;
+}
+
+nav {
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(2, 88, 6);
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: rgb(2, 182, 11);
+  text-decoration: underline;
+}
+
+nav img {
+  transition: 0.7s ease;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+nav img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.7s ease;
+}
+
+div#desmatamento {
+  display: inline-block;
+}
+div#desperdicio {
+  display: inline-block;
+}
+
+div#co2 {
+  display: inline-block;
+}
+
+img#desmatamento {
+  height: 200px;
+  width: 300px;
+  display: inline-block;
+}
+
+img#desperdicio {
+  height: 200px;
+  width: 300px;
+  display: inline-block;
+}
+
+img#co2 {
+  height: 200px;
+  width: 300px;
+  display: inline-block;
+}
+
+div#sobrenos {
+  background-color: lightgray;
+  text-align: center;
+  width: 100vw;
+}
+
+div img {
+  width: 173px;
+  height: 307px;
+}
+
+div#renato {
+  display: inline-block;
+}
+
+div#pedro {
+  display: inline-block;
+}
+
+footer {
+  width: 100vw;
+  height: 3.5vh;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #1c8b38;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+footer a:hover {
+  color: aquamarine; 
+  text-decoration: underline;
+}
 }
