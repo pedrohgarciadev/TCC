@@ -14,7 +14,7 @@ TV: acima de 1200px
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Funnel+Display:wght@300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lilita+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-
+@media screen and (min-width: 1200px) {
 * { 
   padding: 0px;
   margin: 0px;
@@ -174,15 +174,11 @@ div#pedro {
 
 footer {
   width: 100vw;
-  height: 4.9vh;
+  height: 3.5vh;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   color: white;
   background-color: #1c8b38;
   text-align: center;
-}
-
-footer p{ 
-  vertical-align: text-top;
 }
 
 footer a {
@@ -194,4 +190,5 @@ footer a {
 footer a:hover {
   color: aquamarine; 
   text-decoration: underline;
+}
 }

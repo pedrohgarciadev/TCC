@@ -1,8 +1,0 @@
-@charset "UTF-8";
-
-body {
-  background: rgba(144, 245, 149, 0.5) url('../../imagens/desmatamento.jpg') center center no-repeat fixed;
-  background-size: cover;
-  height: 95vh;
-  width: 98vw;
-}
