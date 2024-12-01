@@ -72,6 +72,13 @@ main h3.img {
   text-align: center;
 }
 
+main img {
+  margin: auto;
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+
 main h4 {
   letter-spacing: 1px;
   font-family: "Bebas neue", Arial, Helvetica, sans-serif;
@@ -100,11 +107,23 @@ main q {
   font-weight: 500;
 }
 
-main img {
-  margin: auto;
+div#seta {
   display: block;
-  margin-bottom: 5px;
-  border-radius: 15px;
+  margin: auto;
+  width: 65px;
+}
+
+main img#seta {
+  transition: 0.7s ease;
+  width: 60px;
+  height: 60px;
+}
+
+main img#seta:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.7s ease;
 }
 
 footer {
