@@ -89,6 +89,8 @@ main q {
 }
 
 main img {
+  max-width: 100%;
+  height: auto;
   margin: auto;
   display: block;
   margin-bottom: 5px;
@@ -104,6 +106,7 @@ div#seta {
   display: block;
   margin: auto;
   width: 65px;
+  margin-top: 20px;
 }
 
 main img#seta {
@@ -119,26 +122,26 @@ main img#seta:hover {
 }
 
 footer {
-  width: 100%; /* Garante que ocupe toda a largura */
-  background-color: #1c8b38; /* Cor de fundo */
-  color: white; /* Cor do texto */
-  text-align: center; /* Centraliza o texto */
-  font-family: "Inter", Arial, Helvetica, sans-serif; /* Fonte */
-  padding: 2px 0; /* Espaçamento interno */
-  margin-top: auto; /* Faz o rodapé empurrar para baixo */
+  width: 100%;
+  background-color: #1c8b38;
+  color: white;
+  text-align: center;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  padding: 2px 0;
+  margin-top: auto;
 }
 
 footer p {
-  margin: 0; /* Remove espaçamento externo */
+  margin: 0;
 }
 
 footer a {
-  text-decoration: none; /* Remove sublinhado dos links */
-  color: white; /* Cor padrão do link */
-  font-weight: 900; /* Negrito */
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
 }
 
 footer a:hover {
-  color: aquamarine; /* Cor ao passar o mouse */
-  text-decoration: underline; /* Sublinhado ao passar o mouse */
+  color: aquamarine;
+  text-decoration: underline;
 }
