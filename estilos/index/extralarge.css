@@ -179,7 +179,7 @@ h1#sobrenos {
   margin-bottom: 15px;
 }
 
-div#sobrenos img{
+div#sobrenos img.integrantes{
   width: 200px;
   height: 267px;
 }
@@ -195,8 +195,24 @@ p.nome {
 }
 
 img.icone {
-  width: 10px;
-  height: 10px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+img.insta {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+p
+
+p.cargo {
+  display: inline;
+  vertical-align: middle;
 }
 
 
