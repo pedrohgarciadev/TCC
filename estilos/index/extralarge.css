@@ -18,6 +18,7 @@ Large devices (laptops/desktops, 992px and up)
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Funnel+Display:wght@300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lilita+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 * { 
   padding: 0px;
@@ -135,7 +136,6 @@ nav img:hover {
 
 .nav-imgs div{
   overflow-y: hidden;
-
 }
 
 div#desmatamento {
@@ -171,20 +171,29 @@ div#sobrenos {
   background-color: lightgray;
   text-align: center;
   width: 100vw;
+  padding-bottom: 15px;
 }
 
-div img {
-  width: 173px;
-  height: 307px;
+h1#sobrenos {
+  font-family: "Bebas neue", Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
 }
 
-div#renato {
+div#sobrenos img{
+  width: 200px;
+  height: 267px;
+}
+
+div.nos {
   display: inline-block;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
-div#pedro {
-  display: inline-block;
+p.nome {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-size: 1.6em;
 }
+
 
 footer {
   width: 100%;
