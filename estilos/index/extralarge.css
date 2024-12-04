@@ -194,6 +194,11 @@ p.nome {
   font-size: 1.6em;
 }
 
+img.icone {
+  width: 10px;
+  height: 10px;
+}
+
 
 footer {
   width: 100%;
