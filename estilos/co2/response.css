@@ -9,4 +9,66 @@
       width: 90vw;
       padding: 10px;
     }
+
+    main img {
+      max-width: 60%;
+    }
+
+    main img#seta {
+      max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 655px) {
+  header h1 {
+    font-size: 3em;
+  }
+
+  header img {
+    width: 63px;
+    height: 83px;
+  }
+
+  main h1 {
+    font-size: 1.5em;
+  }
+
+  main h2 {
+    font-size: 1.2em;
+  }
+
+  main p {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 348px) {
+  header h1 {
+    font-size: 1em;
+  }
+
+  header img {
+    width: 28px;
+    height: 38px;
+  }
+
+  main {
+    width: 50vw;
+  }
+
+  main h1 {
+    font-size: 1em;
+  }
+
+  main h2 {
+    font-size: 0.8em;
+  }
+
+  main p {
+    font-size: 0.5em;
+  }
+
+  nav a {
+    font-size: 0.8em;
+  }
 }

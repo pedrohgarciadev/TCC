@@ -6,7 +6,69 @@
 
 @media (max-width: 1147px) {
     main {
-      width: 90vw; /* Garante que o main ocupe 90% da largura da tela */
-      padding: 10px; /* Reduz o espaçamento interno para telas menores */
+      width: 90vw;
+      padding: 10px;
+    }
+  }
+
+  @media screen and (max-width: 617px) {
+    header h1 {
+      font-size: 2em;
+    }
+
+    header img {
+      width: 57px;
+      height: 75px;
+    }
+
+    main h1 {
+      font-size: 1.5em;
+    }
+
+    main h2 {
+      font-size: 1.2em;
+    }
+
+    main img {
+      max-width: 70%;
+    }
+
+    main img#seta {
+      max-width: 100%;
+    }
+
+    main p {
+      font-size: 0.7em;
+    }
+  }
+
+  @media screen and (max-width: 348px) {
+    header h1 {
+      font-size: 1em;
+    }
+
+    header img {
+      width: 28px;
+      height: 38px;
+    }
+
+    main {
+      width: 50vw;
+    }
+
+    main h1 {
+      font-size: 1em;
+    }
+
+    main h2 {
+      font-size: 0.8em;
+    }
+
+    main p {
+      font-size: 0.5em;
+    }
+
+    nav a {
+      font-size: 0.8em;
     }
   }
