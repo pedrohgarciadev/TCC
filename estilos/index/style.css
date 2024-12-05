@@ -33,20 +33,36 @@ html {
 }
 
 header {
-  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(255, 255, 255, 0.560);
   margin-bottom: 3px;
   overflow-x: hidden;
+  padding: 10px;
+}
+
+header img {
+  width: 113px;
+  height: 150px;
+  margin-right: 50px;
+  padding-top: 1px;
+}
+
+header img:hover {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+  transition: 1.0s ease;
 }
 
 header h1 {
   letter-spacing: 0.5rem;
   color: #1c8b38;
-  padding: 5px;
   font-size: 4em;
   font-family: "Bebas neue", Arial, Helvetica, sans-serif;
-  text-align: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.400);
+  margin-right: 50px;
 }
 
 header p {
@@ -155,19 +171,19 @@ div#co2 {
 
 img#desmatamento {
   height: 200px;
-  width: 300px;
+  width: 250px;
   display: inline-block;
 }
 
 img#desperdicio {
   height: 200px;
-  width: 300px;
+  width: 250px;
   display: inline-block;
 }
 
 img#co2 {
   height: 200px;
-  width: 300px;
+  width: 250px;
   display: inline-block;
 }
 
