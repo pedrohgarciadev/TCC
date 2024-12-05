@@ -64,7 +64,7 @@ body {
 }
 
 main {
-  background-color: rgba(238, 234, 234, 0.560);
+  background-color: rgba(238, 234, 234, 0.616);
   padding-left: 15px;
   padding-right: 15px;
   width: 69vw;
@@ -104,7 +104,7 @@ p#tema {
 }
 
 nav {
-  margin-top: 40px;
+  margin-top: 25px;
   text-align: center;
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
@@ -121,17 +121,15 @@ nav a:hover {
 }
 
 nav img {
-  transition: 0.7s ease;
   margin-top: 10px;
-  margin-left: 10px;
   border-radius: 5px;
 }
 
 nav img:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  transition: 0.7s ease;
+  -webkit-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  transform: scale(1.08);
+  transition: 1.5s ease;
 }
 
 .nav-imgs div{
@@ -140,13 +138,19 @@ nav img:hover {
 
 div#desmatamento {
   display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 div#desperdicio {
   display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 div#co2 {
   display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 img#desmatamento {
@@ -171,22 +175,26 @@ div#sobrenos {
   background-color: lightgray;
   text-align: center;
   width: 100vw;
-  padding-bottom: 15px;
 }
 
 h1#sobrenos {
   font-family: "Bebas neue", Arial, Helvetica, sans-serif;
-  margin-bottom: 15px;
-}
-
-div#sobrenos img.integrantes{
-  width: 200px;
-  height: 267px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 div.nos {
   display: inline-block;
   font-family: "Inter", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+div.nos a {
+  text-decoration: none;
+  color: black;
 }
 
 p.nome {
@@ -194,27 +202,45 @@ p.nome {
   font-size: 1.6em;
 }
 
+img.integrantes{
+  width: 200px;
+  height: 267px;
+  border-radius: 7px;
+}
+
+div.cargo {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #1c8b38;
+  border-radius: 7px;
+}
+
 img.icone {
   display: inline-block;
   width: 25px;
   height: 25px;
-  vertical-align: middle;
+}
+
+div.insta {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background: linear-gradient(0deg, #E83944, #D33160, #B63D82, #924A97, #69549F);
+  border-radius: 7px;
+  overflow-y: hidden;
+}
+
+div.insta:hover {
+  -webkit-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  transform: scale(1.06);
+  transition: 0.9s ease;
 }
 
 img.insta {
   display: inline-block;
   width: 25px;
   height: 25px;
-  vertical-align: middle;
 }
-
-p
-
-p.cargo {
-  display: inline;
-  vertical-align: middle;
-}
-
 
 footer {
   width: 100%;

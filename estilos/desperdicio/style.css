@@ -17,14 +17,15 @@ header {
 
 header h1 { 
   color: #1c8b38;
-  font-size: 4em;
+  font-size: 3.3em;
+  letter-spacing: 1px;
   font-family: "Bebas neue", Arial, Helvetica, sans-serif;
   text-align: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.400);
 }
 
 body {
-  background: rgba(144, 245, 149, 0.5) url('../../imagens/desmatamento.jpg') center center no-repeat fixed;
+  background: rgba(144, 245, 149, 0.5) url('../../imagens/torneira.jpg') center center no-repeat fixed;
   background-size: cover;
   height: 100vh;
   width: 100vw;
@@ -32,7 +33,7 @@ body {
 }
 
 main {
-  background-color: rgba(238, 234, 234, 0.560);
+  background-color: rgba(238, 234, 234, 0.616);
   width: 60vw;
   padding-left: 15px;
   padding-right: 15px;
@@ -68,19 +69,6 @@ main h3 {
   color: rgb(18, 18, 18);
 }
 
-main h3.img {
-  text-align: center;
-}
-
-main img {
-  max-width: 100%;
-  height: auto;
-  margin: auto;
-  display: block;
-  margin-bottom: 5px;
-  border-radius: 15px;
-}
-
 main h4 {
   letter-spacing: 1px;
   font-family: "Bebas neue", Arial, Helvetica, sans-serif;
@@ -96,8 +84,17 @@ main p {
   font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
 }
 
-main p.diminuir{
-  margin-bottom: 0.1px;
+main q {
+  font-weight: 500;
+}
+
+main img {
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 main p.textoimg {
@@ -105,18 +102,14 @@ main p.textoimg {
   margin-bottom: 20px;
 }
 
-main q {
-  font-weight: 500;
-}
-
 div#seta {
   display: block;
   margin: auto;
   width: 65px;
+  margin-top: 20px;
 }
 
 main img#seta {
-  transition: 0.7s ease;
   width: 60px;
   height: 60px;
 }
@@ -125,30 +118,30 @@ main img#seta:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 0.7s ease;
+  transition: 0.4s ease;
 }
 
 footer {
-  width: 100%;
+  width: 100%; 
   background-color: #1c8b38;
   color: white;
   text-align: center;
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  padding: 2px 0; 
-  margin-top: auto; 
+  padding: 2px 0;
+  margin-top: auto;
 }
 
 footer p {
-  margin: 0; 
+  margin: 0;
 }
 
 footer a {
-  text-decoration: none; 
-  color: white; 
-  font-weight: 900; 
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
 }
 
 footer a:hover {
   color: aquamarine;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
